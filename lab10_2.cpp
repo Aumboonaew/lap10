@@ -1,6 +1,21 @@
 #include<iostream>
 using namespace std;
 
+void printO(int M, int N) {
+
+	if ((M <= 0) || (N <= 0)){
+		cout << "Invalid input";
+		return;
+	}
+
+	for(int i = 0; i < M; i++){
+		for(int A = 0; A < N; A++){
+			cout << "O";
+		}
+		cout << "\n";
+	}
+
+}
 //Write the function printO() here
 
 int main(){
